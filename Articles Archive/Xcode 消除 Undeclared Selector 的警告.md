@@ -20,7 +20,7 @@
 
 ![消除错误](https://upload-images.jianshu.io/upload_images/187394-4ee124b2397ddb86.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-```
+```objc
 // 清除警告
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wundeclared-selector" // 双引号内是你在上一步获得的错误名

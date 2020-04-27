@@ -10,7 +10,7 @@
 ## 1. 出现的问题
 由于公司是组件化开发，每个组件都是以 CocoaPod 的形式来依赖的，所以每次开发完成都要进行 pod 的本地校验，这次整合了一个静态库，但是在校验的时候无法通过，原因如下：
 
-```
+```shell
  Undefined symbols for architecture i386:
       "_sp_font_create_base_font", referenced from:
           _KGPDFPDFAddWaterMarkToPage in libiAppPDF.a(KGPDFPage.o)

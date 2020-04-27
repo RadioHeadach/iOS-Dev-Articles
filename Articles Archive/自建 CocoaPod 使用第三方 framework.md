@@ -4,7 +4,7 @@
 
 在使用 CocoaPod 写组件时，需要用到第三方库，对此，`podspec` 文件应该这样写：
 
-```
+```ruby
   s.vendored_frameworks = 'Library/*.framework'
 ```
 
