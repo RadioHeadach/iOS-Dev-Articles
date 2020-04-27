@@ -625,3 +625,5 @@ D imageNamed方法将使用完图片后立即释放
 ```
 imageNamed是会把读取到的image存在某个缓存里面，第二次读取相同图片的话系统就会直接从那个缓存中获取，从某种意义上好像一种优化，但是imageNamed读取到的那个图片似乎不会因为Memory Warning而释放，所以用这个会导致在 内存不足 的时候闪退。简单的说imageNamed采用了缓存机制，如果缓存中已加载了图片，直接从缓存读就行了，每次就不用再去读文件了，效率会更高。 
 ```
+
+[返回README](https://github.com/RadioHeadach/iOS-Dev-Articles)

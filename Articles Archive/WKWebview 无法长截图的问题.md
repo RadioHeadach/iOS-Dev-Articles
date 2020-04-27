@@ -80,3 +80,5 @@ body{
 }
 ```
 因此获取页面的总高度都是等于屏幕的高度，导致一直无法截图，我尝试用KVO监听，也尝试过`[self.webView evaluateJavaScript:@"document.body.scrollHeight"]`，所获取的页面高度都一直等于屏幕高度，而不等于页面的实际高度。因此这套代码在我的项目上无法实现长截图。
+
+[返回README](https://github.com/RadioHeadach/iOS-Dev-Articles)
