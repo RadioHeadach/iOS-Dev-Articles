@@ -1,5 +1,7 @@
 # iOS-Dev-Articles
 
+This repo is archived, please go to my site for more articles: <https://radioheadach.github.io>
+
 文章目录
 
 - [CocoaPod 本地校验出现 i386 错误](https://github.com/RadioHeadach/iOS-Dev-Articles/blob/master/Articles%20Archive/CocoaPod%20%E6%9C%AC%E5%9C%B0%E6%A0%A1%E9%AA%8C%E5%87%BA%E7%8E%B0%20i386%20%E9%94%99%E8%AF%AF.md)
